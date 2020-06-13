@@ -1,0 +1,240 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+    font-family: 'Balsamiq Sans', cursive;
+    background-color: rgb(59, 48, 48);
+}
+
+section.home {
+    background-image: url(banner.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(59, 48, 48);
+    background-color: rgba(59,48,48, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+  
+  .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .overlay a:hover, .overlay a:focus {
+    color: white;
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+
+  .bars {
+      color: white;
+      position: relative;
+      top: 1.2rem;
+      left: 2%;
+  }
+
+.home img {
+    height: 10rem;
+    display: block;
+    margin: 28vh auto;
+}
+
+section.oque {
+    background-color: rgb(59, 48, 48);
+    height: 50vh;
+    width: 100%;
+}
+
+.oquetext {
+    padding-right: 15%;
+    padding-left: 15%;
+}
+
+.oque h1 {
+    padding-top: 10%;
+    padding-bottom: 2%;
+}
+
+.oque p {
+    line-height: 1.5rem;
+}
+
+.oque h1, .oque p {
+    color: white;
+    text-align: center;
+}
+
+section.sobre {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    /*background-color: rgb(59, 48, 48);*/
+    background-image: url(teste.jpg);
+}
+
+.sobretext {
+    padding-right: 10%;
+    padding-left: 15%;
+    align-self: center;
+    width: 50%;
+}
+
+.sobre h1 {
+    color: white;
+    text-align: center;
+}
+
+.sobre p {
+    margin-top: 2%;
+    color: white;
+    text-align: center;
+}
+
+.sobre img {
+    width: 30%;
+    height: auto;
+    align-self: center;
+    border-radius: 1.2rem;
+}
+
+section.receitas-titulo {
+    background-color: rgb(59, 48, 48);
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+section.receitas-titulo h1 {
+    color: white;
+    text-align: center;
+    align-self: center;
+}
+
+section.receitas {
+    height: 155vh;
+    width: 100%;
+    background-image: url(receitas.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+}
+
+.card {
+    width: 40%;
+    padding: 4rem;
+  }
+  
+  .card:hover {
+    border: rgb(59, 48, 48);
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
+
+  .container h4, .container p {
+      color: white;
+      text-align: center;
+  }
+
+  .container h5 {
+      text-align: center;
+      color: #ccc;
+      border-bottom: 1px solid white;
+      margin-top: 2%;
+      margin-bottom: 2%;
+  }
+
+  .container p {
+      margin-top: 2%;
+      font-size: 12px;
+  }
+
+  .card img {
+    border-radius: 2rem;
+    height: 20rem;
+    width: auto;
+    align-self: center;
+    cursor: pointer;
+  }
+
+  footer {
+      background-color: rgb(59, 48, 48);
+      height: 20vh;
+      width: 100%;
+  }
+
+  footer h1 {
+    color: white;
+    text-align: center;
+    align-self: center;
+    font-size: 15px;
+    padding-top: 25px;
+  }
+
+  footer img {
+      width: 30px;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+      margin-top: 10px;
+  }
+
+  .dev {
+      background-color: black;
+      height: 10vh;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+  }
+
+  footer h2 {
+      color: white;
+      font-size: 15px;
+      margin-top: 20px;
+  }
+
+  footer a {
+      text-decoration: none;
+      color: #ff3b8d;
+  }
+
